@@ -5,5 +5,9 @@ Kacheese: Kahoot cheat by wuku#4042
 
 
 How to use:
+Use online at https://gg.gg/Kacheese
+
+or
+
 Download Python: https://www.python.org/downloads/
 Run the .pyc executable
