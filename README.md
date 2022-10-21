@@ -7,7 +7,7 @@ Kacheese: Kahoot cheat by wuku#4042
 How to use:
 
 
-Use online at t.ly/tuSg
+Use online at https://t.ly/tuSg
 
 or
 
