@@ -8,6 +8,7 @@ Kacheese: Kahoot cheat by wuku#4042
 
 How to use:
 
+Correct Format for UUID: 1f97032f-bb0f-4cf5-badb-415ee4b70d7b (example)
 
 Use online at [Replit](https://t.ly/tuSg)
 
