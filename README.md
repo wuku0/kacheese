@@ -15,4 +15,4 @@ or
 
 Download Python: [Python](https://t.ly/PCrQ), then run the .pyc executable
 
-For the Kahoot autonickname-bypass, you can use extensions such as [Tampermonkey]https://t.ly/ZjOq or preferably [Violentmonkey]https://t.ly/Tzue.
+For the Kahoot autonickname-bypass, you can use extensions such as [Tampermonkey](https://t.ly/ZjOq) or preferably [Violentmonkey](https://t.ly/Tzue).
