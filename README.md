@@ -14,6 +14,6 @@ Use online at [Replit](https://t.ly/tuSg)
 
 or
 
-Download Python: [Python](https://t.ly/PCrQ), then run the [.pyc executable](https://raw.githubusercontent.com/wuku0/wuku/main/Kacheese-cheat.pyc)
+Download Python: [Python](https://t.ly/PCrQ), then run the [.pyc executable](https://raw.githubusercontent.com/wuku0/wuku/main/Kacheese.pyc)
 
 For the Kahoot autonickname-bypass, you can use extensions such as [Tampermonkey](https://t.ly/ZjOq) or preferably [Violentmonkey](https://t.ly/Tzue).
