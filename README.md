@@ -3,7 +3,7 @@ Kacheese: the only Kahoot cheat library you will need
 YouTube tutorial on how to use
 
 
-Use online at [Replit](https://replit.com/@wuku/wuku)
+Use online at [website](https://wuku0.github.io/kacheese.html)
 
 or
 
