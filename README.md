@@ -20,5 +20,3 @@ Functions include:
 Kahoot answer cheat
 
 Kahoot bot flooder
-
-
