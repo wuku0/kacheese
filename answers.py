@@ -18,7 +18,7 @@ def get_answers(id):
           print(f"{color_list[i]}")
           print()
   except urllib.error.HTTPError:
-    print("Error: Invalid or non-existent Kahoot ID. Please enter a valid ID.")
+    print("Error: Invalid or non-existent Kahoot ID. Please enter a valid UUID.")
 
 while True:
   get_answers(input("Enter uuid: "))
