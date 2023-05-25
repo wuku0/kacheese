@@ -3,7 +3,7 @@ Kacheese: the only Kahoot cheat library you will need
 YouTube tutorial on how to use
 
 
-Example: 9b3c2494-15e9-4d11-8c17-e8c825addec8
+Example of UUID: 9b3c2494-15e9-4d11-8c17-e8c825addec8
 
 
 Use online at [website](https://wuku0.github.io/p/kahoot)
