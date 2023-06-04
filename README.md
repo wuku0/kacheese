@@ -6,7 +6,7 @@ YouTube tutorial on how to use
 Example of UUID: 9b3c2494-15e9-4d11-8c17-e8c825addec8
 
 
-Use online at [website](https://wuku.one/p/kahoot.html)
+Use online at [website](https://wuku0.github.io/p/kahoot)
 
 or
 
