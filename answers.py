@@ -1,24 +1,29 @@
-import json
-import urllib.request
+import requests
+from prettytable import PrettyTable
 
-print("Kacheese by wuku#4042")
+base_url = "https://play.kahoot.it/rest/kahoots/"
+uuid = input("Enter the UUID: ")
+url = f"{base_url}{uuid}"
 
-def get_answers(id):
-  url = f"https://play.kahoot.it/rest/kahoots/{id}"
-  color_list = ["red", "blue", "yellow", "green"]
-  try:
-    with urllib.request.urlopen(url) as response:
-      data = response.read()
-    questions = json.loads(data)["questions"]
-
-    for index, slide in enumerate(questions):
-      for i, choice in enumerate(slide.get("choices", [])):
-        if choice.get("correct", False):
-          print(f"{index+1}: {choice.get('answer')}")
-          print(f"{color_list[i]}")
-          print()
-  except urllib.error.HTTPError:
-    print("Error: Invalid or non-existent Kahoot ID. Please enter a valid UUID.")
-
-while True:
-  get_answers(input("Enter uuid: "))
+response = requests.get(url)
+if response.status_code == 200:
+    kahoot_data = response.json()
+    questions = kahoot_data.get("questions", [])
+    table = PrettyTable()
+    table.field_names = ["Question Number", "Question", "Correct Answer(s)"]
+    if questions:
+        for idx, question in enumerate(questions, start=1):
+            question_number = idx
+            question_text = question["question"]
+            correct_answers = [
+                choice["answer"]
+                for choice in question["choices"]
+                if choice["correct"]
+            ]
+            table.add_row([question_number, question_text, ", ".join(correct_answers) if correct_answers else "None"])
+        table.align = "l"
+        print(table)
+    else:
+        print("No questions found for this Kahoot.")
+else:
+    print(f"Failed to retrieve Kahoot data. Status code: {response.status_code}")
