@@ -1,7 +1,7 @@
 import requests
 from prettytable import PrettyTable
 
-base_url = "https://play.kahoot.it/rest/kahoots/"
+base_url = "https://kahoot.it/rest/challenges/"
 uuid = input("Enter the UUID: ")
 url = f"{base_url}{uuid}"
 
